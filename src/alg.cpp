@@ -23,7 +23,7 @@ double calcItem(double x, uint16_t n) {
   return (pown(x, n) / fact(n));
 }
 
-double expn(double x, uint16_t count){
+double expn(double x, uint16_t count) {
   double sum = 1.0;
   for (int i = 1; i <= count; i++) {
     sum += calcItem(x, i);
